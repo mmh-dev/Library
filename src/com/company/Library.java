@@ -32,6 +32,8 @@ public class Library implements Serializable {
     }
 
     public static int genUniqueId() {
+        System.out.println("added password branch");
+
         int id;
         while (true) {
             id = new Random().nextInt(1000);
